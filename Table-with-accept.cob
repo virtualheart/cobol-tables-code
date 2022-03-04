@@ -14,7 +14,7 @@
            DISPLAY " ********************* "
            DISPLAY WS-I " TABLE'S "
            DISPLAY " ************* "
-              PERFORM VARYING WS-J FROM 1 BY 1 UNTIL WS-J > 10        
+           PERFORM VARYING WS-J FROM 1 BY 1 UNTIL WS-J > 10        
                COMPUTE WS-K = WS-I * WS-J
                DISPLAY WS-J " * " WS-I " = " WS-K  
           END-PERFORM.
